@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
 [RequireComponent(typeof(NavMeshAgent))]
@@ -33,6 +31,12 @@ public class NavigationTrail : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        UpdatePathTarget();
+        RenderPathLine();
+	}
+
+    void UpdatePathTarget()
+    {
         var oldCurrentTarget = CurrentTarget;
         if (CurrentTarget == null)
         {
@@ -51,17 +55,17 @@ public class NavigationTrail : MonoBehaviour {
                 distanceToTarget = newDistance;
             }
         }
+    }
 
-        if (CurrentTarget != oldCurrentTarget)
+    void RenderPathLine()
+    {
+        if (Agent.CalculatePath(CurrentTarget.position, Path))
         {
-            if (Agent.CalculatePath(CurrentTarget.position, Path))
+            Line.positionCount = Path.corners.Length;
+            for( var i = 0; i < Path.corners.Length; i++)
             {
-                Line.positionCount = Path.corners.Length;
-                for( var i = 0; i < Path.corners.Length; i++)
-                {
-                    Line.SetPosition(i, Path.corners[i]);
-                }
+                Line.SetPosition(i, Path.corners[i]);
             }
         }
-	}
+    }
 }
