@@ -32,11 +32,10 @@ public class DataGatherer : MonoBehaviour {
         GameEventsTimeline.Add(gameEvent);
     }
 
-    public string BuildTweet()
+    public string BuildTweet(int transmittorsMissed)
     {
-        var tweetBuilder = new StringBuilder();
-
-        return tweetBuilder.ToString();
+        float str = (float)(transmittorsMissed / 5);
+        return new TweetTemplates(GameEventsTimeline).GenerateTweet().GarbleString(str, transmittorsMissed);
     }
 
     override public string ToString()
