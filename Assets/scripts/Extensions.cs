@@ -9,7 +9,12 @@ public static class Extensions {
 
     public static T GetRandom<T>(this List<T> list)
     {
-        return (list[(int)Math.Floor(rand.NextDouble() * list.Count)]);
+        return list[(int)Math.Floor(rand.NextDouble() * list.Count)];
+    }
+
+    public static T GetRandom<T>(this T[] array)
+    {
+        return array[(int)Math.Floor(rand.NextDouble() * array.Length)];
     }
 
     public static string GarbleString(this string st, float strength, int times)

@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1147074359677856}
+  m_IsPrefabParent: 1
+--- !u!1 &1147074359677856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4863693388130092}
+  - component: {fileID: 114267250176244188}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4863693388130092
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1147074359677856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114267250176244188
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1147074359677856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42b525bd75235d1479c9bdd78071a394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BigEnemyAttack:
+  - {fileID: 8300000, guid: ac78e1da4d47aad4d9cb9539dbf49a38, type: 3}
+  - {fileID: 8300000, guid: f2883fcd49719314698fe62c9e722391, type: 3}
+  - {fileID: 8300000, guid: 3c00450c74edec7459790ca3c14cc9f8, type: 3}
+  - {fileID: 8300000, guid: 61a51e3df6bcf84488d538e7d1069c91, type: 3}
+  - {fileID: 8300000, guid: e2ac092e841e02946ac510cfbf84e208, type: 3}
+  BigEnemyDeath:
+  - {fileID: 8300000, guid: 8d5211cbcce256f409f0c407e557e3aa, type: 3}
+  - {fileID: 8300000, guid: 1ad9d9b75eebe524cb53d3f491ad8d08, type: 3}
+  - {fileID: 8300000, guid: a26276c382ba18441a8a91b5caba9d0b, type: 3}
+  - {fileID: 8300000, guid: 61364e064e1ab5e44af2584d91ed6ff0, type: 3}
+  BigEnemyHit:
+  - {fileID: 8300000, guid: 2ad48a22475274d47906900dec481632, type: 3}
+  - {fileID: 8300000, guid: 2cd23585e232d7c47bf59dae036846e8, type: 3}
+  - {fileID: 8300000, guid: 6c3c07d60e8f4074caf2090e749caaf9, type: 3}
+  - {fileID: 8300000, guid: 52be0f0ce63797d48a0c1af151b98ee7, type: 3}
+  - {fileID: 8300000, guid: d98c45785a4381c49979c13607a9863d, type: 3}
+  - {fileID: 8300000, guid: 4dca9ee67096c2e4b96d014c714ee462, type: 3}
+  - {fileID: 8300000, guid: 3491b67a58bb3874294e575f812cfe62, type: 3}
+  - {fileID: 8300000, guid: c237ca5ee0d1e544fbd6934e0e0638e9, type: 3}
+  - {fileID: 8300000, guid: a75b6d1e460c122438a0107f9151dc30, type: 3}
+  LittleEnemyAttack:
+  - {fileID: 8300000, guid: 676bfaa3bcad57a4292e4c5fd2ec71d1, type: 3}
+  - {fileID: 8300000, guid: 43664eeebfbfcf3439072286f626e6d0, type: 3}
+  - {fileID: 8300000, guid: 1ac8bfb2e62065846915f689dacc1104, type: 3}
+  LittleEnemyDeath:
+  - {fileID: 8300000, guid: 93c14d6c9d87ee54c85f2c56de4d5a17, type: 3}
+  - {fileID: 8300000, guid: 1fadaad0b1545034d8edf00df3ef28d2, type: 3}
+  LittleEnemyHit:
+  - {fileID: 8300000, guid: 2c5901567e9c9d9438e692a0a94be643, type: 3}
+  - {fileID: 8300000, guid: 4ff3fd9f0aeb7cf4aaeb75bb4d456616, type: 3}
+  - {fileID: 8300000, guid: 6d2bdd23be0a9384fa5894fe65f20885, type: 3}
+  LittleEnemyJump:
+  - {fileID: 8300000, guid: 58ee8d3ecc0cfbd42a14e940ae6f99f2, type: 3}
+  - {fileID: 8300000, guid: 518e7d8ba3c929c499a781cc9be02bae, type: 3}
+  - {fileID: 8300000, guid: 214c8b798d4b5a64c8ca924f115bc0aa, type: 3}
