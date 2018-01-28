@@ -36,16 +36,26 @@ public class PlayerMove : MonoBehaviour {
 		// consumes the impact energy each cycle
 		impact = Vector3.Lerp(impact, Vector3.zero, 5*Time.deltaTime);
 
+		Vector3 m_CamForward = Vector3.Scale(camTrans.forward, new Vector3(1, 0, 1)).normalized;
+		Vector3 m_Move = Input.GetAxis("Vertical")*m_CamForward + Input.GetAxis("Horizontal")* camTrans.right;
+
 		//
 		//moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
 		//moveDirection = transform.TransformDirection(moveDirection);
 
-		Vector3 turnDirection = new Vector3 (0f, Input.GetAxis ("Horizontal") * 90f, 0f);
 
-		this.transform.rotation = Quaternion.Euler (turnDirection);
+		//Vector3 targetDir = thing - transform.position;
+		//float step = speed * Time.deltaTime;
+		//Vector3 newDir = Vector3.RotateTowards(transform.forward, thing, step, 0.0F);
 
-		moveDirection = this.transform.forward;
-		moveDirection *= speed;
+		//this.transform.LookAt (thing);
+
+		//Vector3 turnDirection = new Vector3 (0f, Input.GetAxis ("Horizontal") * 90f, 0f);
+
+		//this.transform.rotation = rotation;
+
+		moveDirection = m_Move;
+		moveDirection *= speed * Input.GetAxis("Vertical");
 
 		moveDirection.y -= gravity * Time.deltaTime;
 		cController.Move(moveDirection * Time.deltaTime);
