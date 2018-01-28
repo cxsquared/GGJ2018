@@ -14,6 +14,7 @@ public class BattleResponses : MonoBehaviour {
 	private Animator animator;
 	public EnemyTypeEnum enemyType;
 	public int hp;
+	private bool ded = false;
 
 	// Use this for initialization
 	void Start () {
@@ -26,7 +27,7 @@ public class BattleResponses : MonoBehaviour {
 		hp -= (int) hitInfo[0];
 
 		if (hp <= 0) {
-			TriggerDeath ();
+			if(!ded) TriggerDeath ();
 		} else {
 		//	SoundManager.Instance.PlayBigEnemyHit(transform.position);
 			animator.SetTrigger ("stagger");
@@ -39,6 +40,7 @@ public class BattleResponses : MonoBehaviour {
         //SoundManager.Instance.PlayBigEnemyDeath(transform.position);n
 		NavigationTrail.ParticleSpeed += .75f;
 		animator.SetTrigger ("kill");
+		ded = true;
 
 		if (enemyType == EnemyTypeEnum.ENEMY_NORMAL) {
 			DataGatherer.Instance.AddEvent (new GameEvent (GameEventEnum.KILL_BASIC, "oitp"));
