@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Text;
 using UnityEngine;
+using Twity.DataModels.Core;
 
 public class DataGatherer : MonoBehaviour {
 
@@ -25,6 +26,26 @@ public class DataGatherer : MonoBehaviour {
     private DataGatherer()
     {
         GameEventsTimeline = new List<GameEvent>();
+        Twity.Oauth.consumerKey = "OYpntKrtpj1vPRz1dF0YECRxq";
+        Twity.Oauth.consumerSecret = "WtGAilvToR3zSCpKKngokhRCVyJ5DgknOEZCrvTokwFNcZtwib";
+        Twity.Oauth.accessToken = "957398892479426560-7hgsPNScpw08WHsZ9A2wsTbaWihO9QR";
+        Twity.Oauth.accessTokenSecret = "OvO2efxvEkYYSe1jR4UBEnIrcQbBB0j8BrDJl5Q9RrvM6";
+    }
+
+    private void Start()
+    {
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.KILL_BOSS));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DISCOVER_RADIO_TOWER, "the radio tower"));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.KILL_BOSS));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DISCOVER_RADIO_TOWER, "the signal tower"));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DEATH_BASIC));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DEATH_BASIC));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DISCOVER_RADIO_TOWER, "the signal tower"));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DISCOVER_RADIO_TOWER, "the radio tower"));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DEATH_BASIC));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DEATH_BASIC));
+        GameEventsTimeline.Add(new GameEvent(GameEventEnum.KILL_BOSS));
+        SendTweet(0);
     }
 
     public void AddEvent(GameEvent gameEvent)
@@ -32,10 +53,32 @@ public class DataGatherer : MonoBehaviour {
         GameEventsTimeline.Add(gameEvent);
     }
 
-    public string BuildTweet(int transmittorsMissed)
+    public string SendTweet(int transmittorsMissed)
     {
-        float str = (float)(transmittorsMissed / 5);
-        return new TweetTemplates(GameEventsTimeline).GenerateTweet().GarbleString(str, transmittorsMissed);
+        float str = transmittorsMissed > 0 ? transmittorsMissed / 12f : 0;
+        var tweet = new TweetTemplates(GameEventsTimeline).GenerateTweet().GarbleString(str, transmittorsMissed);
+
+        Debug.Log("Sending tweet " + tweet);
+
+        Dictionary<string, string> parameters = new Dictionary<string, string>();
+        parameters["status"] = tweet; 
+        StartCoroutine(Twity.Client.Post("statuses/update", parameters, Callback));
+
+
+        return tweet;
+    }
+
+    void Callback(bool success, string response)
+    {
+        if (success)
+        {
+            Tweet tweet = JsonUtility.FromJson<Tweet>(response);
+            Debug.Log("Tweet sent " + tweet.text);
+        }
+        else
+        {
+            Debug.Log(response);
+        }
     }
 
     override public string ToString()
