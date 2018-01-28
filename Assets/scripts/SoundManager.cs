@@ -15,6 +15,11 @@ public class SoundManager : MonoBehaviour {
     public AudioClip[] LittleEnemyDeath;
     public AudioClip[] LittleEnemyHit;
     public AudioClip[] LittleEnemyJump;
+    public AudioClip[] PlayerAttack;
+    public AudioClip[] PlayerDeath;
+    public AudioClip[] PlayerHit;
+    public AudioClip[] PlayerJump;
+    public AudioClip[] PlayerGiggle;
 
     private void Awake()
     {
@@ -80,5 +85,45 @@ public class SoundManager : MonoBehaviour {
             return;
 
         AudioSource.PlayClipAtPoint(LittleEnemyJump.GetRandom(), soundPos); 
+    }
+
+    public void PlayPlayerAttack(Vector3 soundPos)
+    {
+        if (PlayerAttack.Length <= 0)
+            return;
+
+        AudioSource.PlayClipAtPoint(PlayerAttack.GetRandom(), soundPos); 
+    }
+
+    public void PlayPlayerDeath(Vector3 soundPos)
+    {
+        if (PlayerDeath.Length <= 0)
+            return;
+
+        AudioSource.PlayClipAtPoint(PlayerDeath.GetRandom(), soundPos); 
+    }
+
+    public void PlayPlayerHit(Vector3 soundPos)
+    {
+        if (PlayerHit.Length <= 0)
+            return;
+
+        AudioSource.PlayClipAtPoint(PlayerHit.GetRandom(), soundPos); 
+    }
+
+    public void PlayPlayerJump(Vector3 soundPos)
+    {
+        if (PlayerJump.Length <= 0)
+            return;
+
+        AudioSource.PlayClipAtPoint(PlayerJump.GetRandom(), soundPos); 
+    }
+
+    public void PlayPlayerGiggle(Vector3 soundPos)
+    {
+        if (PlayerGiggle.Length <= 0)
+            return;
+
+        AudioSource.PlayClipAtPoint(PlayerGiggle.GetRandom(), soundPos);
     }
 }

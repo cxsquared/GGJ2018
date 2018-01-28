@@ -87,3 +87,23 @@ MonoBehaviour:
   - {fileID: 8300000, guid: 58ee8d3ecc0cfbd42a14e940ae6f99f2, type: 3}
   - {fileID: 8300000, guid: 518e7d8ba3c929c499a781cc9be02bae, type: 3}
   - {fileID: 8300000, guid: 214c8b798d4b5a64c8ca924f115bc0aa, type: 3}
+  PlayerAttack:
+  - {fileID: 8300000, guid: 2173be8366d6cb842837520080e1d219, type: 3}
+  - {fileID: 8300000, guid: cc20a582170e48c47bd7552119779379, type: 3}
+  - {fileID: 8300000, guid: 766fa3dd6f87d0c4293267681d5c0e58, type: 3}
+  PlayerDeath:
+  - {fileID: 8300000, guid: baad7997de170bc4a9cf9bf85a52ce6a, type: 3}
+  - {fileID: 8300000, guid: 3594f6562236b4f499746e8fa9c18dcb, type: 3}
+  - {fileID: 8300000, guid: ce301d928d3dd364da5130d710153ee6, type: 3}
+  PlayerHit:
+  - {fileID: 8300000, guid: 3349a86a5f72fa642a551195e9335f55, type: 3}
+  - {fileID: 8300000, guid: ffe0177307393a04facba4df2a5daa98, type: 3}
+  - {fileID: 8300000, guid: 0ba5e3a69ff7d9e4da5c530a24f9c479, type: 3}
+  - {fileID: 8300000, guid: 47433afbd1258b74185916ca1953a262, type: 3}
+  - {fileID: 8300000, guid: fa16ebb9fb132234a8454fd454b37f7e, type: 3}
+  PlayerJump:
+  - {fileID: 8300000, guid: 7266599e35a1e344c97154afebd80cef, type: 3}
+  - {fileID: 8300000, guid: a60ee24962afaaf40a57fa356b8440bc, type: 3}
+  - {fileID: 8300000, guid: a57f7c5d3ec6fa142a19bcc11cf1c8d8, type: 3}
+  PlayerGiggle:
+  - {fileID: 8300000, guid: ae4b71c0866e1ec428d1150fc5f54970, type: 3}
