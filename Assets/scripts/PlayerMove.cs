@@ -30,8 +30,14 @@ public class PlayerMove : MonoBehaviour {
 
 	// Update is called once per frame
 	void  FixedUpdate () {
+        if (Input.GetAxis("Mouse X") < -0.5)
+        {
+            transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * speed);
+        } else if (Input.GetAxis("Mouse X") > 0.5)
+        {
+            transform.Rotate(Vector3.up* Input.GetAxis("Mouse X") * speed);
+        }
 
-		// 
 		if (this.impact.magnitude > 0.2) cController.Move(impact * Time.deltaTime);
 
 		// consumes the impact energy each cycle
@@ -40,19 +46,11 @@ public class PlayerMove : MonoBehaviour {
 		Vector3 m_CamForward = Vector3.Scale(camTrans.forward, new Vector3(1, 0, 1)).normalized;
 		Vector3 m_Move = Input.GetAxis("Vertical")*m_CamForward + Input.GetAxis("Horizontal")* camTrans.right;
 
-
 		moveDirection = m_Move;
-		moveDirection *= speed * Input.GetAxis("Vertical");
 
 		moveDirection.y -= gravity * Time.deltaTime;
-		cController.Move(moveDirection * Time.deltaTime);
+		cController.Move(moveDirection * Time.deltaTime * speed);
 
-        if (Input.GetAxis("Mouse X") < -0.5)
-        {
-            transform.Rotate(Vector3.up * Input.GetAxis("Mouse X") * speed);
-        } else if (Input.GetAxis("Mouse X") > 0.5)
-        {
-            transform.Rotate(Vector3.up* Input.GetAxis("Mouse X") * speed);
-        }
+
     }
 }
