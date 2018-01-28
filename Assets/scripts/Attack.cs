@@ -28,10 +28,8 @@ public class Attack : MonoBehaviour {
 
 	void CheckAttack(Collider other) {
 
-
 		if (other.gameObject.CompareTag (objTag) || other.gameObject.CompareTag("Destructible")) {
 			//talk to the enemy and tell it its "pain time"
-
 			object[] eventInfo = new object[2];
 			eventInfo[0] = 1;
 			eventInfo [1] = this.gameObject.transform.forward * attackForce;

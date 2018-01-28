@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayerCombat : MonoBehaviour {
 
-	private PlayerMove pMove;
+	private Rigidbody rb;
 	private Animator animator;
 	private PlayerStats pStats;
 	public float dodgeImpulse = 2.0f;
@@ -12,7 +12,7 @@ public class PlayerCombat : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		pMove = this.GetComponent<PlayerMove> ();
+		rb = this.GetComponent<Rigidbody> ();
 		pStats = this.GetComponent<PlayerStats> ();
 		animator = this.GetComponent<Animator> ();
 
@@ -23,25 +23,25 @@ public class PlayerCombat : MonoBehaviour {
 
 		//light
 		if (Input.GetButtonDown ("Fire1")) {
-			pMove.addImpact (this.gameObject.transform.forward, 4f);
+			//rb.AddForce(this.gameObject.transform.forward * 100f);
 			animator.SetTrigger ("lightAttack");
 		}
 
 		//heavy
 		if (Input.GetButtonDown ("Fire2")) {
-			pMove.addImpact (this.gameObject.transform.forward, 7f);
+			//rb.AddForce (this.gameObject.transform.forward * 100f);
 			animator.SetTrigger ("heavyAttack");
 		}
 
 		//Dodge
-		if (Input.GetButtonDown ("Jump")) {
-			pMove.addImpact ( new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical")), dodgeImpulse );
+		if (Input.GetButtonDown ("Dodge")) {
+			//rb.AddForce ( this.gameObject.transform.forward * dodgeImpulse );
 			animator.SetTrigger ("dodge");
 		}
 	}
 
 	public void AttackHit(object[] hitInfo) {
-		pMove.addImpact (( Vector3) hitInfo [1], 20f);
+		//rb.AddForce (( Vector3) hitInfo [1], ForceMode.Impulse);
 		pStats.damage( (int) hitInfo[0] );
 	}
 }
