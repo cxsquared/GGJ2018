@@ -22,7 +22,7 @@ public class BattleResponses : MonoBehaviour {
 		if (hp <= 0) {
 			TriggerDeath ();
 		} else {
-			//SoundManager.Instance.PlayBigEnemyHit(transform.position);
+			SoundManager.Instance.PlayBigEnemyHit(transform.position);
 			animator.SetTrigger ("stagger");
 			rb.isKinematic = false;
 			rb.AddForce (( Vector3) hitInfo [1], ForceMode.Impulse);
@@ -30,7 +30,7 @@ public class BattleResponses : MonoBehaviour {
 	}
 
 	void TriggerDeath() {
-    //    SoundManager.Instance.PlayBigEnemyDeath(transform.position);
+        SoundManager.Instance.PlayBigEnemyDeath(transform.position);
 		animator.SetTrigger ("kill");
 	}
 
