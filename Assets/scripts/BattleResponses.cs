@@ -15,6 +15,7 @@ public class BattleResponses : MonoBehaviour {
 	public void AttackHit(object[] hitInfo) {
 		rb.AddForce (( Vector3) hitInfo [1]);
 		hp -= (int) hitInfo[0];
+        SoundManager.Instance.PlayBigEnemyHit(transform.position);
 
 		if (hp <= 0) {
 			TriggerDeath ();
@@ -22,6 +23,7 @@ public class BattleResponses : MonoBehaviour {
 	}
 
 	void TriggerDeath() {
+        SoundManager.Instance.PlayBigEnemyDeath(transform.position);
 		Destroy (this.gameObject);
 	}
 	
