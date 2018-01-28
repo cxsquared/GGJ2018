@@ -34,18 +34,6 @@ public class DataGatherer : MonoBehaviour {
 
     private void Start()
     {
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.KILL_BOSS));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DISCOVER_RADIO_TOWER, "the radio tower"));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.KILL_BOSS));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DISCOVER_RADIO_TOWER, "the signal tower"));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DEATH_BASIC));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DEATH_BASIC));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DISCOVER_RADIO_TOWER, "the signal tower"));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DISCOVER_RADIO_TOWER, "the radio tower"));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DEATH_BASIC));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.DEATH_BASIC));
-        GameEventsTimeline.Add(new GameEvent(GameEventEnum.KILL_BOSS));
-        SendTweet(0);
     }
 
     public void AddEvent(GameEvent gameEvent)
