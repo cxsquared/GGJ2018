@@ -1,42 +1,69 @@
 fileFormatVersion: 2
-guid: b968358d53e2e4f99bc4a4e8fe7f23c1
-timeCreated: 1517084955
+guid: 918152937932a4d599af2533058fe4a7
+timeCreated: 1517108018
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Group1
-    100004: Group2
-    100006: Group3
-    100008: Group4
-    100010: ZBrush_defualt_group
+    100002: mixamorig:Head
+    100004: mixamorig:HeadTop_End
+    100006: mixamorig:Hips
+    100008: mixamorig:LeftArm
+    100010: mixamorig:LeftFoot
+    100012: mixamorig:LeftForeArm
+    100014: mixamorig:LeftHand
+    100016: mixamorig:LeftLeg
+    100018: mixamorig:LeftShoulder
+    100020: mixamorig:LeftToe_End
+    100022: mixamorig:LeftToeBase
+    100024: mixamorig:LeftUpLeg
+    100026: mixamorig:Neck
+    100028: mixamorig:RightArm
+    100030: mixamorig:RightFoot
+    100032: mixamorig:RightForeArm
+    100034: mixamorig:RightHand
+    100036: mixamorig:RightLeg
+    100038: mixamorig:RightShoulder
+    100040: mixamorig:RightToe_End
+    100042: mixamorig:RightToeBase
+    100044: mixamorig:RightUpLeg
+    100046: mixamorig:Spine
+    100048: mixamorig:Spine1
+    100050: mixamorig:Spine2
+    100052: unamed
     400000: //RootNode
-    400002: Group1
-    400004: Group2
-    400006: Group3
-    400008: Group4
-    400010: ZBrush_defualt_group
-    2100000: Group1Mat
-    2100002: Group2Mat
-    2100004: Group3Mat
-    2100006: Group4Mat
-    2100008: ZBrush_defualt_groupMat
-    2300000: Group1
-    2300002: Group2
-    2300004: Group3
-    2300006: Group4
-    2300008: ZBrush_defualt_group
-    3300000: Group1
-    3300002: Group2
-    3300004: Group3
-    3300006: Group4
-    3300008: ZBrush_defualt_group
-    4300000: Group1
-    4300002: Group2
-    4300004: Group3
-    4300006: Group4
-    4300008: ZBrush_defualt_group
+    400002: mixamorig:Head
+    400004: mixamorig:HeadTop_End
+    400006: mixamorig:Hips
+    400008: mixamorig:LeftArm
+    400010: mixamorig:LeftFoot
+    400012: mixamorig:LeftForeArm
+    400014: mixamorig:LeftHand
+    400016: mixamorig:LeftLeg
+    400018: mixamorig:LeftShoulder
+    400020: mixamorig:LeftToe_End
+    400022: mixamorig:LeftToeBase
+    400024: mixamorig:LeftUpLeg
+    400026: mixamorig:Neck
+    400028: mixamorig:RightArm
+    400030: mixamorig:RightFoot
+    400032: mixamorig:RightForeArm
+    400034: mixamorig:RightHand
+    400036: mixamorig:RightLeg
+    400038: mixamorig:RightShoulder
+    400040: mixamorig:RightToe_End
+    400042: mixamorig:RightToeBase
+    400044: mixamorig:RightUpLeg
+    400046: mixamorig:Spine
+    400048: mixamorig:Spine1
+    400050: mixamorig:Spine2
+    400052: unamed
+    2100000: lambert1
+    4300000: unamed
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: unamed
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -111,7 +138,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 

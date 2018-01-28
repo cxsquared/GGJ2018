@@ -9,11 +9,11 @@ public class CameraFollow : MonoBehaviour {
 	public Vector3 CameraCurrentLookAt;
 
 
-	void Update() {
+	void FixedUpdate() {
 
 		Vector3 diff = CameraGoalPosition.transform.position - this.transform.position;
 			
-		this.transform.position = Vector3.Lerp (CameraGoalPosition.transform.position, this.transform.position, 0.95f);
+		this.transform.position = Vector3.Lerp (CameraGoalPosition.transform.position, this.transform.position, 0.95f * Time.deltaTime);
 
 
 		Vector3 pos = CameraGoalPosition.transform.position;
