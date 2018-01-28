@@ -14,22 +14,24 @@ public class SimpleEnemyAI : MonoBehaviour {
 	private Rigidbody rb;
 
 	void Start () {
+		
+
 		agent = GetComponent<UnityEngine.AI.NavMeshAgent>();
+		agent.Warp (this.transform.position);
+
 		animator = this.gameObject.GetComponent<Animator> ();
 		playerRef = GameObject.FindGameObjectWithTag ("Player");
 		rb = GetComponent<Rigidbody> ();
+
+
 	}
 		
 	void Update() {
-
-
 		//if (rb.velocity.magnitude < 0.01f)
 		//	rb.isKinematic = true;
-
-		if (rb.isKinematic) {
+		//if (rb.isKinematic) {
 			agent.destination = playerRef.transform.position;
-		}
-
+		//}
 
 		if(agent.remainingDistance < 3f && !agent.pathPending) {
 			animator.SetTrigger("attack");
