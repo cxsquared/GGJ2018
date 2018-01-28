@@ -32,7 +32,6 @@ public class NavigationTrail : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         UpdatePathTarget();
-        RenderPathLine();
 	}
 
     void UpdatePathTarget()
@@ -55,17 +54,31 @@ public class NavigationTrail : MonoBehaviour {
                 distanceToTarget = newDistance;
             }
         }
+
+        Line.SetPosition(0, transform.position);
+        Agent.SetDestination(CurrentTarget.position);
+
+        RenderPathLine(Agent.path);
+
+        Agent.isStopped = true;
     }
 
-    void RenderPathLine()
+    void RenderPathLine(NavMeshPath path)
     {
-        if (Agent.CalculatePath(CurrentTarget.position, Path))
+        if (path.corners.Length < 2)
         {
-            Line.positionCount = Path.corners.Length;
-            for( var i = 0; i < Path.corners.Length; i++)
-            {
-                Line.SetPosition(i, Path.corners[i]);
-            }
+            Line.material.color = Color.clear;
+            return;
         }
+
+        Line.material.color = new Color(Line.material.color.r,Line.material.color.g,Line.material.color.b, TrailOpacity);
+
+        Line.positionCount = path.corners.Length;
+
+        for (var i = 1; i < path.corners.Length; i++)
+        {
+            Line.SetPosition(i, path.corners[i]);
+        }
+ 
     }
 }
