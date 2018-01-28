@@ -6,13 +6,16 @@ public class PlayerCombat : MonoBehaviour {
 
 	private PlayerMove pMove;
 	private Animator animator;
+	private PlayerStats pStats;
 	public float dodgeImpulse = 2.0f;
 
 
 	// Use this for initialization
 	void Start () {
 		pMove = this.GetComponent<PlayerMove> ();
+		pStats = this.GetComponent<PlayerStats> ();
 		animator = this.GetComponent<Animator> ();
+
 	}
 	
 	// Update is called once per frame
@@ -35,6 +38,10 @@ public class PlayerCombat : MonoBehaviour {
 			pMove.addImpact ( new Vector3(Input.GetAxis("Horizontal"), 0f, Input.GetAxis("Vertical")), dodgeImpulse );
 			animator.SetTrigger ("dodge");
 		}
+	}
 
+	public void AttackHit(object[] hitInfo) {
+		pMove.addImpact (( Vector3) hitInfo [1], 20f);
+		pStats.damage( (int) hitInfo[0] );
 	}
 }
