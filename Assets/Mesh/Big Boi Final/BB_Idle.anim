@@ -1,0 +1,6201 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!74 &7400000
+AnimationClip:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: BB_Idle
+  serializedVersion: 6
+  m_Legacy: 0
+  m_Compressed: 0
+  m_UseHighQualityCurve: 1
+  m_RotationCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.037720405, y: 0.3677675, z: 0.010763393, w: 0.9290901}
+        inSlope: {x: -0.0041098776, y: 0.0051112785, z: 0.001973956, w: -0.0022115665}
+        outSlope: {x: -0.0041098776, y: 0.0051112785, z: 0.001973956, w: -0.0022115665}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.7916667
+        value: {x: -0.03805302, y: 0.367698, z: 0.010877808, w: 0.9291027}
+        inSlope: {x: 0.0032364908, y: 0.0015724913, z: -0.0012309563, w: -0.00047493028}
+        outSlope: {x: 0.0032364908, y: 0.0015724913, z: -0.0012309563, w: -0.00047493028}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: -0.037552297, y: 0.36755547, z: 0.01066366, w: 0.929182}
+        inSlope: {x: 0.0034843716, y: -0.0005943781, z: -0.0014586761, w: 0.00039339103}
+        outSlope: {x: 0.0034843716, y: -0.0005943781, z: -0.0014586761, w: 0.00039339103}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.17993009, y: -0.03886956, z: 0.016595548, w: 0.982771}
+        inSlope: {x: -0.00082542124, y: 0.000111184934, z: -0.00032328584, w: 0.00016088688}
+        outSlope: {x: -0.00082542124, y: 0.000111184934, z: -0.00032328584, w: 0.00016088688}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.17999242, y: -0.038896173, z: 0.016555652, w: 0.98275924}
+        inSlope: {x: 0.0008454331, y: 0.0000215471, z: 0.00021390637, w: -0.00015878692}
+        outSlope: {x: 0.0008454331, y: 0.0000215471, z: 0.00021390637, w: -0.00015878692}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.10054202, y: -0.07349346, z: 0.038812276, w: 0.9914552}
+        inSlope: {x: -0.0026847348, y: -0.00020718458, z: -0.0005646221, w: 0.00027472526}
+        outSlope: {x: -0.0026847348, y: -0.00020718458, z: -0.0005646221, w: 0.00027472526}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: {x: 0.09646487, y: -0.07326046, z: 0.037495676, w: 0.9919282}
+        inSlope: {x: 0.009896645, y: 0.0013676597, z: 0.0014447733, w: -0.0009155282}
+        outSlope: {x: 0.009896645, y: 0.0013676597, z: 0.0014447733, w: -0.0009155282}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.10068952, y: -0.07354067, z: 0.038736466, w: 0.9914398}
+        inSlope: {x: 0.0017062442, y: 0.00013321651, z: 0.00031417637, w: -0.00017595309}
+        outSlope: {x: 0.0017062442, y: 0.00013321651, z: 0.00031417637, w: -0.00017595309}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.10054196, y: -0.073493496, z: 0.03881231, w: 0.9914552}
+        inSlope: {x: -0.0026845364, y: -0.00020695548, z: -0.00056383247, w: 0.00027472526}
+        outSlope: {x: -0.0026845364, y: -0.00020695548, z: -0.00056383247, w: 0.00027472526}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: {x: 0.09646489, y: -0.07326041, z: 0.03749565, w: 0.9919282}
+        inSlope: {x: 0.009896109, y: 0.0013666762, z: 0.0014446392, w: -0.0009155282}
+        outSlope: {x: 0.009896109, y: 0.0013666762, z: 0.0014446392, w: -0.0009155282}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.10068946, y: -0.073540695, z: 0.03873647, w: 0.9914398}
+        inSlope: {x: 0.001704456, y: 0.00013321651, z: 0.00031408697, w: -0.00017595309}
+        outSlope: {x: 0.001704456, y: 0.00013321651, z: 0.00031408697, w: -0.00017595309}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.16670771, y: 0.0107225925, z: -0.0035483707, w: 0.9859392}
+        inSlope: {x: 0.01736583, y: -0.00004318827, z: 0.001403647, w: 0.0028291375}
+        outSlope: {x: 0.01736583, y: -0.00004318827, z: 0.001403647, w: 0.0028291375}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.75
+        value: {x: -0.14381634, y: 0.010296405, z: -0.0028444987, w: 0.9895468}
+        inSlope: {x: -0.0056743002, y: -0.0001733712, z: -0.00019159344, w: -0.0008246895}
+        outSlope: {x: -0.0056743002, y: -0.0001733712, z: -0.00019159344, w: -0.0008246895}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: -0.1672352, y: 0.010657037, z: -0.0036134813, w: 0.98585284}
+        inSlope: {x: -0.008043058, y: -0.001044945, z: -0.0005711378, w: -0.0013532651}
+        outSlope: {x: -0.008043058, y: -0.001044945, z: -0.0005711378, w: -0.0013532651}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.053767763, y: -0.17668366, z: 0.012753945, w: 0.9827121}
+        inSlope: {x: 0.023321867, y: 0.0054581403, z: -0.006907401, w: 0.00220747}
+        outSlope: {x: 0.023321867, y: 0.0054581403, z: -0.006907401, w: 0.00220747}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: {x: -0.04341549, y: -0.17655735, z: 0.004738492, w: 0.983321}
+        inSlope: {x: -0.07786986, y: -0.0061056027, z: -0.0046258983, w: -0.0045275697}
+        outSlope: {x: -0.07786986, y: -0.0061056027, z: -0.0046258983, w: -0.0045275697}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1250001
+        value: {x: -0.07146203, y: -0.17747098, z: 0.0017621986, w: 0.98152643}
+        inSlope: {x: 0.0111975875, y: -0.0059984913, z: 0.015590237, w: -0.0002968316}
+        outSlope: {x: 0.0111975875, y: -0.0059984913, z: 0.015590237, w: -0.0002968316}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: -0.0545352, y: -0.17689498, z: 0.013021847, w: 0.98263144}
+        inSlope: {x: 0.01304574, y: -0.004173164, z: 0.002526308, w: -0.000055790002}
+        outSlope: {x: 0.01304574, y: -0.004173164, z: 0.002526308, w: -0.000055790002}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.667757, y: -0.33301884, z: 0.5520713, w: 0.3720268}
+        inSlope: {x: -0.0064020455, y: -0.010307707, z: -0.00064207613, w: 0.0024319887}
+        outSlope: {x: -0.0064020455, y: -0.010307707, z: -0.00064207613, w: 0.0024319887}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583333
+        value: {x: 0.6468894, y: -0.35891655, z: 0.55882925, w: 0.37473047}
+        inSlope: {x: 0.037366368, y: 0.04187999, z: -0.017739762, w: 0.0020302527}
+        outSlope: {x: 0.037366368, y: 0.04187999, z: -0.017739762, w: 0.0020302527}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.6678292, y: -0.332809, z: 0.5521882, w: 0.37192827}
+        inSlope: {x: 0.0054245046, y: 0.0057506617, z: -0.0028967885, w: -0.00028967884}
+        outSlope: {x: 0.0054245046, y: 0.0057506617, z: -0.0028967885, w: -0.00028967884}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.29918775, y: 0.08360937, z: -0.17923908, w: 0.9334697}
+        inSlope: {x: 0.002430689, y: -0.0046623405, z: -0.002295563, w: -0.00089826103}
+        outSlope: {x: 0.002430689, y: -0.0046623405, z: -0.002295563, w: -0.00089826103}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: {x: 0.31537256, y: 0.07298661, z: -0.18267654, w: 0.9283547}
+        inSlope: {x: -0.02686571, y: 0.0053550284, z: 0.008772957, w: 0.010431999}
+        outSlope: {x: -0.02686571, y: 0.0053550284, z: 0.008772957, w: 0.010431999}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.2992947, y: 0.083703876, z: -0.17910281, w: 0.93345517}
+        inSlope: {x: -0.011208068, y: 0.0020456333, z: -0.003892783, w: 0.002666476}
+        outSlope: {x: -0.011208068, y: 0.0020456333, z: -0.003892783, w: 0.002666476}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.14851251, y: -0.047475964, z: -0.37719163, w: 0.9129153}
+        inSlope: {x: -0.0005587454, y: -0.0008565557, z: -0.0068407124, w: -0.0030232484}
+        outSlope: {x: -0.0005587454, y: -0.0008565557, z: -0.0068407124, w: -0.0030232484}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: {x: -0.14681631, y: -0.05505099, z: -0.3924051, w: 0.9063292}
+        inSlope: {x: 0.00055807875, y: 0.0048527913, z: 0.014596237, w: 0.006705529}
+        outSlope: {x: 0.00055807875, y: 0.0048527913, z: 0.014596237, w: 0.006705529}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: -0.14863414, y: -0.047424678, z: -0.376971, w: 0.9129905}
+        inSlope: {x: 0.0009527216, y: 0.0014834418, z: 0.006454474, w: 0.002898219}
+        outSlope: {x: 0.0009527216, y: 0.0014834418, z: 0.006454474, w: 0.002898219}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.7097678, y: 0.3046751, z: -0.49502784, w: 0.39791533}
+        inSlope: {x: -0.014552375, y: 0.018153105, z: -0.005423061, w: 0.00451883}
+        outSlope: {x: -0.014552375, y: 0.018153105, z: -0.005423061, w: 0.00451883}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: {x: 0.6872458, y: 0.33324772, z: -0.50419194, w: 0.40302572}
+        inSlope: {x: 0.02689076, y: -0.03210891, z: 0.011544231, w: -0.0048558717}
+        outSlope: {x: 0.02689076, y: -0.03210891, z: 0.011544231, w: -0.0048558717}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.71018434, y: 0.30411988, z: -0.49487916, w: 0.39779878}
+        inSlope: {x: 0.006418711, y: -0.008234747, z: 0.0017502324, w: -0.0029811887}
+        outSlope: {x: 0.006418711, y: -0.008234747, z: 0.0017502324, w: -0.0029811887}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.34664148, y: -0.113784365, z: -0.05301203, w: 0.9295542}
+        inSlope: {x: 0.01067511, y: 0.012442501, z: 0.009434863, w: -0.0022051334}
+        outSlope: {x: 0.01067511, y: 0.012442501, z: 0.009434863, w: -0.0022051334}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.875
+        value: {x: 0.37667775, y: -0.08982711, z: -0.044536274, w: 0.92090255}
+        inSlope: {x: -0.008194324, y: -0.0067930487, z: -0.0009054239, w: 0.0026457298}
+        outSlope: {x: -0.008194324, y: -0.0067930487, z: -0.0009054239, w: 0.0026457298}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.3463873, y: -0.11415324, z: -0.05338339, w: 0.9295887}
+        inSlope: {x: -0.002808812, y: -0.0054561547, z: 0.001488985, w: 0.00046205564}
+        outSlope: {x: -0.002808812, y: -0.0054561547, z: 0.001488985, w: 0.00046205564}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.02708289, y: -0.17304869, z: 0.36149403, w: 0.91576874}
+        inSlope: {x: 0.012006504, y: 0.020368682, z: 0.006273368, w: 0.0014717941}
+        outSlope: {x: 0.012006504, y: 0.020368682, z: 0.006273368, w: 0.0014717941}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: {x: -0.009037349, y: -0.14151028, z: 0.37037823, w: 0.91799414}
+        inSlope: {x: -0.011321306, y: -0.016223256, z: 0.0016397256, w: -0.0032765882}
+        outSlope: {x: -0.011321306, y: -0.016223256, z: 0.0016397256, w: -0.0032765882}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: -0.027459744, y: -0.17367557, z: 0.3612886, w: 0.9157256}
+        inSlope: {x: -0.0029604016, y: -0.012223733, z: -0.0039289035, w: -0.00085258565}
+        outSlope: {x: -0.0029604016, y: -0.012223733, z: -0.0039289035, w: -0.00085258565}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.028435364, y: 0.4572359, z: 0.87266403, w: 0.16906743}
+        inSlope: {x: -0.0011024605, y: -0.012216261, z: 0.006059982, w: 0.0015253765}
+        outSlope: {x: -0.0011024605, y: -0.012216261, z: 0.006059982, w: 0.0015253765}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: {x: -0.029693173, y: 0.45197698, z: 0.87598157, w: 0.16580543}
+        inSlope: {x: 0.00428718, y: 0.018605608, z: -0.009905586, w: 0.0024016523}
+        outSlope: {x: 0.00428718, y: 0.018605608, z: -0.009905586, w: 0.0024016523}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: -0.02833731, y: 0.45774972, z: 0.87241864, w: 0.16896111}
+        inSlope: {x: 0.000419632, y: 0.0054881624, z: -0.0029611615, w: 0.0004920964}
+        outSlope: {x: 0.000419632, y: 0.0054881624, z: -0.0029611615, w: 0.0004920964}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.6255544, y: -0.09962106, z: 0.022203565, w: 0.77347565}
+        inSlope: {x: 0.0060690106, y: 0.0014274534, z: -0.0018393886, w: 0.005147291}
+        outSlope: {x: 0.0060690106, y: 0.0014274534, z: -0.0018393886, w: 0.005147291}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5416667
+        value: {x: -0.6244771, y: -0.09981741, z: 0.021665592, w: 0.7743355}
+        inSlope: {x: -0.0045561832, y: -0.0018027144, z: -0.00034350192, w: -0.0038952865}
+        outSlope: {x: -0.0045561832, y: -0.0018027144, z: -0.00034350192, w: -0.0038952865}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: -0.62576157, y: -0.099729456, z: 0.022260582, w: 0.7732923}
+        inSlope: {x: 0.00040912666, y: -0.00037300622, z: 0.0008297869, w: 0.0002574923}
+        outSlope: {x: 0.00040912666, y: -0.00037300622, z: 0.0008297869, w: 0.0002574923}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.53391707, y: 0.026801126, z: 0.1692798, w: 0.8279847}
+        inSlope: {x: -0.00022475536, y: -0.00050167367, z: 0.00047811752, w: 0.000063401}
+        outSlope: {x: -0.00022475536, y: -0.00050167367, z: 0.00047811752, w: 0.000063401}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5833334
+        value: {x: 0.5340826, y: 0.02646687, z: 0.16852796, w: 0.82804203}
+        inSlope: {x: -0.00894713, y: 0.0015211252, z: 0.0057617417, w: 0.0045504547}
+        outSlope: {x: -0.00894713, y: 0.0015211252, z: 0.0057617417, w: 0.0045504547}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.5338692, y: 0.026709262, z: 0.16924018, w: 0.82802665}
+        inSlope: {x: -0.002830985, y: 0.000098928904, z: 0.0001738073, w: 0.0017881411}
+        outSlope: {x: -0.002830985, y: 0.000098928904, z: 0.0001738073, w: 0.0017881411}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.4237297, y: -0.05413494, z: 0.040437613, w: 0.9032648}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.4237297, y: -0.05413494, z: 0.040437613, w: 0.9032648}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.06806531, y: -0.07275174, z: 0.9619457, w: -0.25442794}
+        inSlope: {x: -0.00014022409, y: 0.00005443096, z: -0.0004876184, w: -0.0017781507}
+        outSlope: {x: -0.00014022409, y: 0.00005443096, z: -0.0004876184, w: -0.0017781507}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: {x: 0.0699664, y: -0.08652389, z: 0.9606182, w: -0.25461933}
+        inSlope: {x: -0.00078231015, y: 0.00833898, z: 0.00012588457, w: -0.0025799265}
+        outSlope: {x: -0.00078231015, y: 0.00833898, z: 0.00012588457, w: -0.0025799265}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.06803509, y: -0.07284111, z: 0.96195585, w: -0.2543745}
+        inSlope: {x: -0.00068539445, y: 0.004813318, z: 0.0007910736, w: 0.0014262213}
+        outSlope: {x: -0.00068539445, y: 0.004813318, z: 0.0007910736, w: 0.0014262213}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.5709953, y: -0.04667358, z: -0.044235565, w: 0.81842786}
+        inSlope: {x: 0.007287947, y: 0.002291045, z: -0.0007721082, w: 0.0050283438}
+        outSlope: {x: 0.007287947, y: 0.002291045, z: -0.0007721082, w: 0.0050283438}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: {x: -0.5508206, y: -0.051551066, z: -0.043566205, w: 0.8318901}
+        inSlope: {x: -0.025842216, y: 0.004431505, z: -0.0054329536, w: -0.017111795}
+        outSlope: {x: -0.025842216, y: 0.004431505, z: -0.0054329536, w: -0.017111795}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: -0.5712023, y: -0.046759315, z: -0.044190124, w: 0.81828403}
+        inSlope: {x: -0.0039296187, y: -0.001287998, z: 0.00020054002, w: -0.0028052356}
+        outSlope: {x: -0.0039296187, y: -0.001287998, z: 0.00020054002, w: -0.0028052356}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.79100883, y: -0.058996774, z: -0.2782979, w: 0.54163975}
+        inSlope: {x: -0.0049894117, y: 0.0020924758, z: 0.004032813, w: 0.009541679}
+        outSlope: {x: -0.0049894117, y: 0.0020924758, z: 0.004032813, w: 0.009541679}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: {x: 0.7847117, y: -0.059695557, z: -0.28019172, w: 0.54968774}
+        inSlope: {x: 0.018990058, y: 0.0006017095, z: 0.00015914455, w: -0.026953008}
+        outSlope: {x: 0.018990058, y: 0.0006017095, z: 0.00015914455, w: -0.026953008}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.7911896, y: -0.059129704, z: -0.2784857, w: 0.54126555}
+        inSlope: {x: 0.0017108934, y: -0.0005793577, z: -0.00013661398, w: -0.0026335742}
+        outSlope: {x: 0.0017108934, y: -0.0005793577, z: -0.00013661398, w: -0.0026335742}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 0.41515845, y: 0.033630215, z: -0.014659816, w: 0.90900916}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 0.41515845, y: 0.033630215, z: -0.014659816, w: 0.90900916}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+  m_CompressedRotationCurves: []
+  m_EulerCurves: []
+  m_PositionCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: -0.0004080302, y: 0.008182046, z: -0.00042594274}
+        inSlope: {x: -0.00002497842, y: 0.000057065394, z: -0.0000072069524}
+        outSlope: {x: -0.00002497842, y: 0.000057065394, z: -0.0000072069524}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: {x: -0.0004130651, y: 0.008208285, z: -0.00041142566}
+        inSlope: {x: -0.000011905868, y: 0.00014648605, z: 0.000118575175}
+        outSlope: {x: -0.000011904111, y: 0.0001465397, z: 0.000118570235}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: {x: -0.0004184028, y: 0.008251629, z: -0.00037635112}
+        inSlope: {x: 0.0000036271326, y: 0.00006504017, z: 0.00009659467}
+        outSlope: {x: 0.0000036497938, y: 0.00006493619, z: 0.000096602176}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: {x: -0.0004147872, y: 0.008250487, z: -0.00036728347}
+        inSlope: {x: -0.0000060195416, y: -0.00015955666, z: -0.00009150055}
+        outSlope: {x: -0.0000059989998, y: -0.0001590219, z: -0.00009150949}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.325
+        value: {x: -0.00041206437, y: 0.008221526, z: -0.00039084136}
+        inSlope: {x: 0.00001951564, y: -0.000121975034, z: -0.000069941474}
+        outSlope: {x: 0.000019541185, y: -0.00012216577, z: -0.000069923546}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5916667
+        value: {x: -0.0004073663, y: 0.008196477, z: -0.00041468156}
+        inSlope: {x: 0.000010033173, y: -0.00009071493, z: -0.00009094207}
+        outSlope: {x: 0.0000100305115, y: -0.00009122924, z: -0.000090902155}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9250001
+        value: {x: -0.00040688357, y: 0.00817952, z: -0.00042506855}
+        inSlope: {x: 0.0000025044615, y: -0.0000082901615, z: -0.000007716466}
+        outSlope: {x: 0.0000025044615, y: -0.0000082901615, z: -0.000007716466}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips
+  m_ScaleCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: {x: 1, y: 1, z: 1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+  m_FloatCurves: []
+  m_PPtrCurves: []
+  m_SampleRate: 24
+  m_WrapMode: 0
+  m_Bounds:
+    m_Center: {x: 0, y: 0, z: 0}
+    m_Extent: {x: 0, y: 0, z: 0}
+  m_ClipBindingConstant:
+    genericBindings:
+    - serializedVersion: 2
+      path: 2257317975
+      attribute: 1
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2257317975
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3756728238
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 769031542
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2758719232
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3234942999
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1493459196
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1247441380
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1661316941
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2652997584
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2299221583
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 966813807
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3159457673
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1535726681
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 978753383
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 43917271
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3661226250
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2538846269
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1453815488
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 880086333
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2884633661
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3756728238
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3234942999
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1247441380
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1661316941
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2652997584
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2299221583
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 966813807
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3159457673
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1535726681
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 978753383
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 43917271
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 880086333
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3661226250
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2538846269
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1453815488
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2884633661
+      attribute: 3
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    pptrCurveMapping: []
+  m_AnimationClipSettings:
+    serializedVersion: 2
+    m_AdditiveReferencePoseClip: {fileID: 0}
+    m_AdditiveReferencePoseTime: 0
+    m_StartTime: 0
+    m_StopTime: 1.9250001
+    m_OrientationOffsetY: 0
+    m_Level: 0
+    m_CycleOffset: 0
+    m_HasAdditiveReferencePose: 0
+    m_LoopTime: 0
+    m_LoopBlend: 0
+    m_LoopBlendOrientation: 0
+    m_LoopBlendPositionY: 0
+    m_LoopBlendPositionXZ: 0
+    m_KeepOriginalOrientation: 0
+    m_KeepOriginalPositionY: 1
+    m_KeepOriginalPositionXZ: 0
+    m_HeightFromFeet: 0
+    m_Mirror: 0
+  m_EditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.037720405
+        inSlope: -0.0041098776
+        outSlope: -0.0041098776
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.7916667
+        value: -0.03805302
+        inSlope: 0.0032364908
+        outSlope: 0.0032364908
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.037552297
+        inSlope: 0.0034843716
+        outSlope: 0.0034843716
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.3677675
+        inSlope: 0.0051112785
+        outSlope: 0.0051112785
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.7916667
+        value: 0.367698
+        inSlope: 0.0015724913
+        outSlope: 0.0015724913
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.36755547
+        inSlope: -0.0005943781
+        outSlope: -0.0005943781
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.010763393
+        inSlope: 0.001973956
+        outSlope: 0.001973956
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.7916667
+        value: 0.010877808
+        inSlope: -0.0012309563
+        outSlope: -0.0012309563
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.01066366
+        inSlope: -0.0014586761
+        outSlope: -0.0014586761
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9290901
+        inSlope: -0.0022115665
+        outSlope: -0.0022115665
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.7916667
+        value: 0.9291027
+        inSlope: -0.00047493028
+        outSlope: -0.00047493028
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.929182
+        inSlope: 0.00039339103
+        outSlope: 0.00039339103
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.17993009
+        inSlope: -0.00082542124
+        outSlope: -0.00082542124
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.17999242
+        inSlope: 0.0008454331
+        outSlope: 0.0008454331
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.03886956
+        inSlope: 0.000111184934
+        outSlope: 0.000111184934
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.038896173
+        inSlope: 0.0000215471
+        outSlope: 0.0000215471
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.016595548
+        inSlope: -0.00032328584
+        outSlope: -0.00032328584
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.016555652
+        inSlope: 0.00021390637
+        outSlope: 0.00021390637
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.982771
+        inSlope: 0.00016088688
+        outSlope: 0.00016088688
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.98275924
+        inSlope: -0.00015878692
+        outSlope: -0.00015878692
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.10054202
+        inSlope: -0.0026847348
+        outSlope: -0.0026847348
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.09646487
+        inSlope: 0.009896645
+        outSlope: 0.009896645
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.10068952
+        inSlope: 0.0017062442
+        outSlope: 0.0017062442
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.07349346
+        inSlope: -0.00020718458
+        outSlope: -0.00020718458
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -0.07326046
+        inSlope: 0.0013676597
+        outSlope: 0.0013676597
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.07354067
+        inSlope: 0.00013321651
+        outSlope: 0.00013321651
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.038812276
+        inSlope: -0.0005646221
+        outSlope: -0.0005646221
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.037495676
+        inSlope: 0.0014447733
+        outSlope: 0.0014447733
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.038736466
+        inSlope: 0.00031417637
+        outSlope: 0.00031417637
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9914552
+        inSlope: 0.00027472526
+        outSlope: 0.00027472526
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.9919282
+        inSlope: -0.0009155282
+        outSlope: -0.0009155282
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.9914398
+        inSlope: -0.00017595309
+        outSlope: -0.00017595309
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.10054196
+        inSlope: -0.0026845364
+        outSlope: -0.0026845364
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.09646489
+        inSlope: 0.009896109
+        outSlope: 0.009896109
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.10068946
+        inSlope: 0.001704456
+        outSlope: 0.001704456
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.073493496
+        inSlope: -0.00020695548
+        outSlope: -0.00020695548
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -0.07326041
+        inSlope: 0.0013666762
+        outSlope: 0.0013666762
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.073540695
+        inSlope: 0.00013321651
+        outSlope: 0.00013321651
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.03881231
+        inSlope: -0.00056383247
+        outSlope: -0.00056383247
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.03749565
+        inSlope: 0.0014446392
+        outSlope: 0.0014446392
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.03873647
+        inSlope: 0.00031408697
+        outSlope: 0.00031408697
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9914552
+        inSlope: 0.00027472526
+        outSlope: 0.00027472526
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.9919282
+        inSlope: -0.0009155282
+        outSlope: -0.0009155282
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.9914398
+        inSlope: -0.00017595309
+        outSlope: -0.00017595309
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.16670771
+        inSlope: 0.01736583
+        outSlope: 0.01736583
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.75
+        value: -0.14381634
+        inSlope: -0.0056743002
+        outSlope: -0.0056743002
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.1672352
+        inSlope: -0.008043058
+        outSlope: -0.008043058
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.0107225925
+        inSlope: -0.00004318827
+        outSlope: -0.00004318827
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.75
+        value: 0.010296405
+        inSlope: -0.0001733712
+        outSlope: -0.0001733712
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.010657037
+        inSlope: -0.001044945
+        outSlope: -0.001044945
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0035483707
+        inSlope: 0.001403647
+        outSlope: 0.001403647
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.75
+        value: -0.0028444987
+        inSlope: -0.00019159344
+        outSlope: -0.00019159344
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.0036134813
+        inSlope: -0.0005711378
+        outSlope: -0.0005711378
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9859392
+        inSlope: 0.0028291375
+        outSlope: 0.0028291375
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.75
+        value: 0.9895468
+        inSlope: -0.0008246895
+        outSlope: -0.0008246895
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.98585284
+        inSlope: -0.0013532651
+        outSlope: -0.0013532651
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.053767763
+        inSlope: 0.023321867
+        outSlope: 0.023321867
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: -0.04341549
+        inSlope: -0.07786986
+        outSlope: -0.07786986
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1250001
+        value: -0.07146203
+        inSlope: 0.0111975875
+        outSlope: 0.0111975875
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.0545352
+        inSlope: 0.01304574
+        outSlope: 0.01304574
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.17668366
+        inSlope: 0.0054581403
+        outSlope: 0.0054581403
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: -0.17655735
+        inSlope: -0.0061056027
+        outSlope: -0.0061056027
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1250001
+        value: -0.17747098
+        inSlope: -0.0059984913
+        outSlope: -0.0059984913
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.17689498
+        inSlope: -0.004173164
+        outSlope: -0.004173164
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.012753945
+        inSlope: -0.006907401
+        outSlope: -0.006907401
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.004738492
+        inSlope: -0.0046258983
+        outSlope: -0.0046258983
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1250001
+        value: 0.0017621986
+        inSlope: 0.015590237
+        outSlope: 0.015590237
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.013021847
+        inSlope: 0.002526308
+        outSlope: 0.002526308
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9827121
+        inSlope: 0.00220747
+        outSlope: 0.00220747
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 0.983321
+        inSlope: -0.0045275697
+        outSlope: -0.0045275697
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1250001
+        value: 0.98152643
+        inSlope: -0.0002968316
+        outSlope: -0.0002968316
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.98263144
+        inSlope: -0.000055790002
+        outSlope: -0.000055790002
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.667757
+        inSlope: -0.0064020455
+        outSlope: -0.0064020455
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583333
+        value: 0.6468894
+        inSlope: 0.037366368
+        outSlope: 0.037366368
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.6678292
+        inSlope: 0.0054245046
+        outSlope: 0.0054245046
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.33301884
+        inSlope: -0.010307707
+        outSlope: -0.010307707
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583333
+        value: -0.35891655
+        inSlope: 0.04187999
+        outSlope: 0.04187999
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.332809
+        inSlope: 0.0057506617
+        outSlope: 0.0057506617
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.5520713
+        inSlope: -0.00064207613
+        outSlope: -0.00064207613
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583333
+        value: 0.55882925
+        inSlope: -0.017739762
+        outSlope: -0.017739762
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.5521882
+        inSlope: -0.0028967885
+        outSlope: -0.0028967885
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.3720268
+        inSlope: 0.0024319887
+        outSlope: 0.0024319887
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583333
+        value: 0.37473047
+        inSlope: 0.0020302527
+        outSlope: 0.0020302527
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.37192827
+        inSlope: -0.00028967884
+        outSlope: -0.00028967884
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.29918775
+        inSlope: 0.002430689
+        outSlope: 0.002430689
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: 0.31537256
+        inSlope: -0.02686571
+        outSlope: -0.02686571
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.2992947
+        inSlope: -0.011208068
+        outSlope: -0.011208068
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.08360937
+        inSlope: -0.0046623405
+        outSlope: -0.0046623405
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: 0.07298661
+        inSlope: 0.0053550284
+        outSlope: 0.0053550284
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.083703876
+        inSlope: 0.0020456333
+        outSlope: 0.0020456333
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.17923908
+        inSlope: -0.002295563
+        outSlope: -0.002295563
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: -0.18267654
+        inSlope: 0.008772957
+        outSlope: 0.008772957
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.17910281
+        inSlope: -0.003892783
+        outSlope: -0.003892783
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9334697
+        inSlope: -0.00089826103
+        outSlope: -0.00089826103
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: 0.9283547
+        inSlope: 0.010431999
+        outSlope: 0.010431999
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.93345517
+        inSlope: 0.002666476
+        outSlope: 0.002666476
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.14851251
+        inSlope: -0.0005587454
+        outSlope: -0.0005587454
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -0.14681631
+        inSlope: 0.00055807875
+        outSlope: 0.00055807875
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.14863414
+        inSlope: 0.0009527216
+        outSlope: 0.0009527216
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.047475964
+        inSlope: -0.0008565557
+        outSlope: -0.0008565557
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -0.05505099
+        inSlope: 0.0048527913
+        outSlope: 0.0048527913
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.047424678
+        inSlope: 0.0014834418
+        outSlope: 0.0014834418
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.37719163
+        inSlope: -0.0068407124
+        outSlope: -0.0068407124
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -0.3924051
+        inSlope: 0.014596237
+        outSlope: 0.014596237
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.376971
+        inSlope: 0.006454474
+        outSlope: 0.006454474
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9129153
+        inSlope: -0.0030232484
+        outSlope: -0.0030232484
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: 0.9063292
+        inSlope: 0.006705529
+        outSlope: 0.006705529
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.9129905
+        inSlope: 0.002898219
+        outSlope: 0.002898219
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.7097678
+        inSlope: -0.014552375
+        outSlope: -0.014552375
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.6872458
+        inSlope: 0.02689076
+        outSlope: 0.02689076
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.71018434
+        inSlope: 0.006418711
+        outSlope: 0.006418711
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.3046751
+        inSlope: 0.018153105
+        outSlope: 0.018153105
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.33324772
+        inSlope: -0.03210891
+        outSlope: -0.03210891
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.30411988
+        inSlope: -0.008234747
+        outSlope: -0.008234747
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.49502784
+        inSlope: -0.005423061
+        outSlope: -0.005423061
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: -0.50419194
+        inSlope: 0.011544231
+        outSlope: 0.011544231
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.49487916
+        inSlope: 0.0017502324
+        outSlope: 0.0017502324
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.39791533
+        inSlope: 0.00451883
+        outSlope: 0.00451883
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.40302572
+        inSlope: -0.0048558717
+        outSlope: -0.0048558717
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.39779878
+        inSlope: -0.0029811887
+        outSlope: -0.0029811887
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.34664148
+        inSlope: 0.01067511
+        outSlope: 0.01067511
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.875
+        value: 0.37667775
+        inSlope: -0.008194324
+        outSlope: -0.008194324
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.3463873
+        inSlope: -0.002808812
+        outSlope: -0.002808812
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.113784365
+        inSlope: 0.012442501
+        outSlope: 0.012442501
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.875
+        value: -0.08982711
+        inSlope: -0.0067930487
+        outSlope: -0.0067930487
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.11415324
+        inSlope: -0.0054561547
+        outSlope: -0.0054561547
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.05301203
+        inSlope: 0.009434863
+        outSlope: 0.009434863
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.875
+        value: -0.044536274
+        inSlope: -0.0009054239
+        outSlope: -0.0009054239
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.05338339
+        inSlope: 0.001488985
+        outSlope: 0.001488985
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9295542
+        inSlope: -0.0022051334
+        outSlope: -0.0022051334
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.875
+        value: 0.92090255
+        inSlope: 0.0026457298
+        outSlope: 0.0026457298
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.9295887
+        inSlope: 0.00046205564
+        outSlope: 0.00046205564
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.02708289
+        inSlope: 0.012006504
+        outSlope: 0.012006504
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: -0.009037349
+        inSlope: -0.011321306
+        outSlope: -0.011321306
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.027459744
+        inSlope: -0.0029604016
+        outSlope: -0.0029604016
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.17304869
+        inSlope: 0.020368682
+        outSlope: 0.020368682
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: -0.14151028
+        inSlope: -0.016223256
+        outSlope: -0.016223256
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.17367557
+        inSlope: -0.012223733
+        outSlope: -0.012223733
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.36149403
+        inSlope: 0.006273368
+        outSlope: 0.006273368
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.37037823
+        inSlope: 0.0016397256
+        outSlope: 0.0016397256
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.3612886
+        inSlope: -0.0039289035
+        outSlope: -0.0039289035
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.91576874
+        inSlope: 0.0014717941
+        outSlope: 0.0014717941
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 0.91799414
+        inSlope: -0.0032765882
+        outSlope: -0.0032765882
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.9157256
+        inSlope: -0.00085258565
+        outSlope: -0.00085258565
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.028435364
+        inSlope: -0.0011024605
+        outSlope: -0.0011024605
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -0.029693173
+        inSlope: 0.00428718
+        outSlope: 0.00428718
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.02833731
+        inSlope: 0.000419632
+        outSlope: 0.000419632
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.4572359
+        inSlope: -0.012216261
+        outSlope: -0.012216261
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.45197698
+        inSlope: 0.018605608
+        outSlope: 0.018605608
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.45774972
+        inSlope: 0.0054881624
+        outSlope: 0.0054881624
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.87266403
+        inSlope: 0.006059982
+        outSlope: 0.006059982
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.87598157
+        inSlope: -0.009905586
+        outSlope: -0.009905586
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.87241864
+        inSlope: -0.0029611615
+        outSlope: -0.0029611615
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.16906743
+        inSlope: 0.0015253765
+        outSlope: 0.0015253765
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.16580543
+        inSlope: 0.0024016523
+        outSlope: 0.0024016523
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.16896111
+        inSlope: 0.0004920964
+        outSlope: 0.0004920964
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.6255544
+        inSlope: 0.0060690106
+        outSlope: 0.0060690106
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5416667
+        value: -0.6244771
+        inSlope: -0.0045561832
+        outSlope: -0.0045561832
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.62576157
+        inSlope: 0.00040912666
+        outSlope: 0.00040912666
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.09962106
+        inSlope: 0.0014274534
+        outSlope: 0.0014274534
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5416667
+        value: -0.09981741
+        inSlope: -0.0018027144
+        outSlope: -0.0018027144
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.099729456
+        inSlope: -0.00037300622
+        outSlope: -0.00037300622
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.022203565
+        inSlope: -0.0018393886
+        outSlope: -0.0018393886
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5416667
+        value: 0.021665592
+        inSlope: -0.00034350192
+        outSlope: -0.00034350192
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.022260582
+        inSlope: 0.0008297869
+        outSlope: 0.0008297869
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.77347565
+        inSlope: 0.005147291
+        outSlope: 0.005147291
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5416667
+        value: 0.7743355
+        inSlope: -0.0038952865
+        outSlope: -0.0038952865
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.7732923
+        inSlope: 0.0002574923
+        outSlope: 0.0002574923
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.53391707
+        inSlope: -0.00022475536
+        outSlope: -0.00022475536
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5833334
+        value: 0.5340826
+        inSlope: -0.00894713
+        outSlope: -0.00894713
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.5338692
+        inSlope: -0.002830985
+        outSlope: -0.002830985
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.026801126
+        inSlope: -0.00050167367
+        outSlope: -0.00050167367
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5833334
+        value: 0.02646687
+        inSlope: 0.0015211252
+        outSlope: 0.0015211252
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.026709262
+        inSlope: 0.000098928904
+        outSlope: 0.000098928904
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.1692798
+        inSlope: 0.00047811752
+        outSlope: 0.00047811752
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5833334
+        value: 0.16852796
+        inSlope: 0.0057617417
+        outSlope: 0.0057617417
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.16924018
+        inSlope: 0.0001738073
+        outSlope: 0.0001738073
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.8279847
+        inSlope: 0.000063401
+        outSlope: 0.000063401
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5833334
+        value: 0.82804203
+        inSlope: 0.0045504547
+        outSlope: 0.0045504547
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.82802665
+        inSlope: 0.0017881411
+        outSlope: 0.0017881411
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.4237297
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.4237297
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.05413494
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.05413494
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.040437613
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.040437613
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9032648
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.9032648
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.06806531
+        inSlope: -0.00014022409
+        outSlope: -0.00014022409
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: 0.0699664
+        inSlope: -0.00078231015
+        outSlope: -0.00078231015
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.06803509
+        inSlope: -0.00068539445
+        outSlope: -0.00068539445
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.07275174
+        inSlope: 0.00005443096
+        outSlope: 0.00005443096
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: -0.08652389
+        inSlope: 0.00833898
+        outSlope: 0.00833898
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.07284111
+        inSlope: 0.004813318
+        outSlope: 0.004813318
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.9619457
+        inSlope: -0.0004876184
+        outSlope: -0.0004876184
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: 0.9606182
+        inSlope: 0.00012588457
+        outSlope: 0.00012588457
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.96195585
+        inSlope: 0.0007910736
+        outSlope: 0.0007910736
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.25442794
+        inSlope: -0.0017781507
+        outSlope: -0.0017781507
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: -0.25461933
+        inSlope: -0.0025799265
+        outSlope: -0.0025799265
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.2543745
+        inSlope: 0.0014262213
+        outSlope: 0.0014262213
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.5709953
+        inSlope: 0.007287947
+        outSlope: 0.007287947
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -0.5508206
+        inSlope: -0.025842216
+        outSlope: -0.025842216
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.5712023
+        inSlope: -0.0039296187
+        outSlope: -0.0039296187
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.04667358
+        inSlope: 0.002291045
+        outSlope: 0.002291045
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -0.051551066
+        inSlope: 0.004431505
+        outSlope: 0.004431505
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.046759315
+        inSlope: -0.001287998
+        outSlope: -0.001287998
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.044235565
+        inSlope: -0.0007721082
+        outSlope: -0.0007721082
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -0.043566205
+        inSlope: -0.0054329536
+        outSlope: -0.0054329536
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.044190124
+        inSlope: 0.00020054002
+        outSlope: 0.00020054002
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.81842786
+        inSlope: 0.0050283438
+        outSlope: 0.0050283438
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: 0.8318901
+        inSlope: -0.017111795
+        outSlope: -0.017111795
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.81828403
+        inSlope: -0.0028052356
+        outSlope: -0.0028052356
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.79100883
+        inSlope: -0.0049894117
+        outSlope: -0.0049894117
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.7847117
+        inSlope: 0.018990058
+        outSlope: 0.018990058
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.7911896
+        inSlope: 0.0017108934
+        outSlope: 0.0017108934
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.058996774
+        inSlope: 0.0020924758
+        outSlope: 0.0020924758
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -0.059695557
+        inSlope: 0.0006017095
+        outSlope: 0.0006017095
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.059129704
+        inSlope: -0.0005793577
+        outSlope: -0.0005793577
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.2782979
+        inSlope: 0.004032813
+        outSlope: 0.004032813
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -0.28019172
+        inSlope: 0.00015914455
+        outSlope: 0.00015914455
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.2784857
+        inSlope: -0.00013661398
+        outSlope: -0.00013661398
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.54163975
+        inSlope: 0.009541679
+        outSlope: 0.009541679
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 0.54968774
+        inSlope: -0.026953008
+        outSlope: -0.026953008
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.54126555
+        inSlope: -0.0026335742
+        outSlope: -0.0026335742
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.41515845
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.41515845
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.033630215
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.033630215
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.014659816
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.014659816
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.90900916
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.90900916
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.0004080302
+        inSlope: -0.00002497842
+        outSlope: -0.00002497842
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: -0.0004130651
+        inSlope: -0.000011905868
+        outSlope: -0.000011904111
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: -0.0004184028
+        inSlope: 0.0000036271326
+        outSlope: 0.0000036497938
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -0.0004147872
+        inSlope: -0.0000060195416
+        outSlope: -0.0000059989998
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.325
+        value: -0.00041206437
+        inSlope: 0.00001951564
+        outSlope: 0.000019541185
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5916667
+        value: -0.0004073663
+        inSlope: 0.000010033173
+        outSlope: 0.0000100305115
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9250001
+        value: -0.00040688357
+        inSlope: 0.0000025044615
+        outSlope: 0.0000025044615
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.008182046
+        inSlope: 0.000057065394
+        outSlope: 0.000057065394
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: 0.008208285
+        inSlope: 0.00014648605
+        outSlope: 0.0001465397
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: 0.008251629
+        inSlope: 0.00006504017
+        outSlope: 0.00006493619
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: 0.008250487
+        inSlope: -0.00015955666
+        outSlope: -0.0001590219
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.325
+        value: 0.008221526
+        inSlope: -0.000121975034
+        outSlope: -0.00012216577
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5916667
+        value: 0.008196477
+        inSlope: -0.00009071493
+        outSlope: -0.00009122924
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9250001
+        value: 0.00817952
+        inSlope: -0.0000082901615
+        outSlope: -0.0000082901615
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.00042594274
+        inSlope: -0.0000072069524
+        outSlope: -0.0000072069524
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.2916667
+        value: -0.00041142566
+        inSlope: 0.000118575175
+        outSlope: 0.000118570235
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.6666667
+        value: -0.00037635112
+        inSlope: 0.00009659467
+        outSlope: 0.000096602176
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -0.00036728347
+        inSlope: -0.00009150055
+        outSlope: -0.00009150949
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.325
+        value: -0.00039084136
+        inSlope: -0.000069941474
+        outSlope: -0.000069923546
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5916667
+        value: -0.00041468156
+        inSlope: -0.00009094207
+        outSlope: -0.000090902155
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9250001
+        value: -0.00042506855
+        inSlope: -0.000007716466
+        outSlope: -0.000007716466
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  m_EulerEditorCurves:
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -4.4740834
+        inSlope: -0.51910317
+        outSlope: -0.51910317
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.7916667
+        value: -4.5144105
+        inSlope: 0.39781764
+        outSlope: 0.39785385
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -4.4520526
+        inSlope: 0.43275833
+        outSlope: 0.43275833
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 43.208294
+        inSlope: 0.6400238
+        outSlope: 0.6400238
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.7916667
+        value: 43.20057
+        inSlope: 0.1861927
+        outSlope: 0.18585205
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 43.181812
+        inSlope: -0.08139038
+        outSlope: -0.08139038
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.4450796
+        inSlope: 0.010110904
+        outSlope: 0.010110904
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.7916667
+        value: -0.44662634
+        inSlope: -0.0015047815
+        outSlope: -0.0017931461
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.44758266
+        inSlope: -0.0052084923
+        outSlope: -0.0052084923
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 20.790398
+        inSlope: -0.09767084
+        outSlope: -0.09767084
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 20.797508
+        inSlope: 0.09936656
+        outSlope: 0.09936656
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -4.320355
+        inSlope: 0.0066343388
+        outSlope: 0.0066343388
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -4.324472
+        inSlope: 0.006964227
+        outSlope: 0.006964227
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.1419426
+        inSlope: -0.032991264
+        outSlope: -0.032991264
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1.1362809
+        inSlope: 0.022657994
+        outSlope: 0.022657994
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 11.833641
+        inSlope: -0.31220663
+        outSlope: -0.31220663
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 11.353771
+        inSlope: 1.1433312
+        outSlope: 1.1434021
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 11.850142
+        inSlope: 0.19812927
+        outSlope: 0.19812927
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -8.101169
+        inSlope: -0.036389995
+        outSlope: -0.036389995
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -8.097658
+        inSlope: 0.19634074
+        outSlope: 0.19600525
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -8.107286
+        inSlope: 0.022787476
+        outSlope: 0.022787476
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.6426358
+        inSlope: -0.047800492
+        outSlope: -0.047800492
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 3.5233068
+        inSlope: 0.10942249
+        outSlope: 0.10887909
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 3.6321378
+        inSlope: 0.025284577
+        outSlope: 0.025284577
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 11.833635
+        inSlope: -0.31219333
+        outSlope: -0.31219333
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 11.353772
+        inSlope: 1.1432581
+        outSlope: 1.1433243
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 11.850134
+        inSlope: 0.19787292
+        outSlope: 0.19787292
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -8.101172
+        inSlope: -0.036345694
+        outSlope: -0.036345694
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -8.097654
+        inSlope: 0.19619012
+        outSlope: 0.19584045
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -8.107289
+        inSlope: 0.02280121
+        outSlope: 0.02280121
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.6426396
+        inSlope: -0.04770303
+        outSlope: -0.04770303
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 3.523304
+        inSlope: 0.1093937
+        outSlope: 0.10889282
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 3.6321385
+        inSlope: 0.025281142
+        outSlope: 0.025281142
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -19.187027
+        inSlope: 2.013977
+        outSlope: 2.013977
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.75
+        value: -16.532991
+        inSlope: -0.6568527
+        outSlope: -0.65685976
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -19.248236
+        inSlope: -0.93460786
+        outSlope: -0.93460786
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.3545996
+        inSlope: -0.05261469
+        outSlope: -0.05261469
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.75
+        value: 1.2669028
+        inSlope: -0.011947155
+        outSlope: -0.011917897
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1.3486876
+        inSlope: -0.10392256
+        outSlope: -0.10392256
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -0.6413764
+        inSlope: 0.19734144
+        outSlope: 0.19734144
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.75
+        value: -0.5134699
+        inSlope: -0.02815175
+        outSlope: -0.028142195
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -0.6487223
+        inSlope: -0.060359508
+        outSlope: -0.060359508
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -5.8065634
+        inSlope: 2.477726
+        outSlope: 2.477726
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: -4.80182
+        inSlope: -8.870984
+        outSlope: -8.871199
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1250001
+        value: -8.02807
+        inSlope: 1.5976335
+        outSlope: 1.5984892
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -5.887124
+        inSlope: 1.5349383
+        outSlope: 1.5349383
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -20.513618
+        inSlope: 0.77645874
+        outSlope: 0.77645874
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: -20.417662
+        inSlope: -0.9555065
+        outSlope: -0.95421517
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1250001
+        value: -20.615034
+        inSlope: -0.76778567
+        outSlope: -0.76581216
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -20.543362
+        inSlope: -0.43952543
+        outSlope: -0.43952543
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.5387027
+        inSlope: -1.2950073
+        outSlope: -1.2950073
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.5833333
+        value: 1.4174348
+        inSlope: 1.1206049
+        outSlope: 1.1195059
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.1250001
+        value: 1.6680837
+        inSlope: 1.5820705
+        outSlope: 1.580902
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 2.5862553
+        inSlope: 0.037594747
+        outSlope: 0.037594747
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:Neck/mixamorig:Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 59.832283
+        inSlope: 1.1335741
+        outSlope: 1.1335741
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583333
+        value: 62.37044
+        inSlope: -3.557385
+        outSlope: -3.5573847
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 59.804623
+        inSlope: -0.52761835
+        outSlope: -0.52761835
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 103.06674
+        inSlope: 0.14138927
+        outSlope: 0.14138927
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583333
+        value: 101.76696
+        inSlope: 3.1943705
+        outSlope: 3.19437
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 103.04396
+        inSlope: 0.5880551
+        outSlope: 0.5880551
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -176.12271
+        inSlope: 0.974344
+        outSlope: 0.974344
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9583333
+        value: -174.36479
+        inSlope: -2.7172055
+        outSlope: -2.7172053
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -176.15
+        inSlope: -0.24437413
+        outSlope: -0.24437413
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 36.05345
+        inSlope: 0.19876096
+        outSlope: 0.19876096
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: 37.75027
+        inSlope: -3.0967135
+        outSlope: -3.0960848
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 36.06762
+        inSlope: -1.2718923
+        outSlope: -1.2718923
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 3.4634867
+        inSlope: -0.77939117
+        outSlope: -0.77939117
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: 1.4706303
+        inSlope: 1.8483018
+        outSlope: 1.8510852
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 3.4795232
+        inSlope: 0.36664218
+        outSlope: 0.36664218
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -20.611126
+        inSlope: -0.53994364
+        outSlope: -0.53994364
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: -21.761427
+        inSlope: 1.851877
+        outSlope: 1.8546358
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -20.589624
+        inSlope: -0.32451493
+        outSlope: -0.32451493
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -17.87699
+        inSlope: -0.087258905
+        outSlope: -0.087258905
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -18.019001
+        inSlope: 0.26759398
+        outSlope: 0.26776558
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -17.888075
+        inSlope: 0.15709795
+        outSlope: 0.15709795
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 1.5264548
+        inSlope: 0.07203769
+        outSlope: 0.07203769
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: 0.92997
+        inSlope: 0.20102713
+        outSlope: 0.20081356
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 1.5333326
+        inSlope: -0.01326125
+        outSlope: -0.01326125
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -45.13825
+        inSlope: -0.87999386
+        outSlope: -0.87999386
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -46.968895
+        inSlope: 1.8335521
+        outSlope: 1.8335397
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -45.112495
+        inSlope: 0.82462853
+        outSlope: 0.82462853
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:LeftShoulder/mixamorig:LeftArm/mixamorig:LeftForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 60.05581
+        inSlope: 1.9136435
+        outSlope: 1.9136435
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 62.87287
+        inSlope: -3.14591
+        outSlope: -3.1454086
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 60.000072
+        inSlope: -0.95611954
+        outSlope: -0.95611954
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -112.77259
+        inSlope: 0.8979825
+        outSlope: 0.8979825
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: -111.44724
+        inSlope: -1.795865
+        outSlope: -1.7968597
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -112.79305
+        inSlope: -0.32592773
+        outSlope: -0.32592773
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 175.57184
+        inSlope: -1.1953125
+        outSlope: -1.1953125
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 173.49686
+        inSlope: 2.2166414
+        outSlope: 2.2163086
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 175.61398
+        inSlope: 0.52267456
+        outSlope: 0.52267456
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 39.226486
+        inSlope: 1.630685
+        outSlope: 1.630685
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.875
+        value: 43.295868
+        inSlope: -1.0919887
+        outSlope: -1.0920409
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 39.183613
+        inSlope: -0.3802258
+        outSlope: -0.3802258
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -18.694464
+        inSlope: 1.8200357
+        outSlope: 1.8200357
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.875
+        value: -15.86743
+        inSlope: -0.7637133
+        outSlope: -0.76315975
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -18.754522
+        inSlope: -0.5903888
+        outSlope: -0.5903888
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -13.241741
+        inSlope: 1.5150015
+        outSlope: 1.5150015
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.875
+        value: -11.869341
+        inSlope: -0.22662571
+        outSlope: -0.22596128
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -13.301085
+        inSlope: 0.042228695
+        outSlope: 0.042228695
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 4.3305025
+        inSlope: 0.53504354
+        outSlope: 0.53504354
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 5.061914
+        inSlope: -0.47254163
+        outSlope: -0.4723935
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 4.3128757
+        inSlope: 0.11825752
+        outSlope: 0.11825752
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -19.72419
+        inSlope: 2.7323246
+        outSlope: 2.7323246
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: -15.518476
+        inSlope: -2.2136545
+        outSlope: -2.2136621
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -19.808632
+        inSlope: -1.4698563
+        outSlope: -1.4698563
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 42.32945
+        inSlope: 0.6327251
+        outSlope: 0.6327251
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 0.9166667
+        value: 43.2545
+        inSlope: 0.28584427
+        outSlope: 0.28605652
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 42.30884
+        inSlope: -0.46757126
+        outSlope: -0.46757126
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:Spine/mixamorig:Spine1/mixamorig:Spine2/mixamorig:RightShoulder/mixamorig:RightArm/mixamorig:RightForeArm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -53.866184
+        inSlope: 1.4883727
+        outSlope: 1.4883727
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -53.29213
+        inSlope: -2.1344662
+        outSlope: -2.1391113
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -53.927692
+        inSlope: -0.65667117
+        outSlope: -0.65667117
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 10.254926
+        inSlope: -0.8507958
+        outSlope: -0.8507958
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 9.422681
+        inSlope: 2.12214
+        outSlope: 2.0972304
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 10.296048
+        inSlope: 0.48253328
+        outSlope: 0.48253328
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 152.85062
+        inSlope: 0.5516554
+        outSlope: 0.5516554
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 153.82774
+        inSlope: -1.855449
+        outSlope: -1.8301026
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 152.83008
+        inSlope: -0.45703125
+        outSlope: -0.45703125
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -74.42462
+        inSlope: 0.5480099
+        outSlope: 0.5480099
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5416667
+        value: -74.31961
+        inSlope: -0.45732814
+        outSlope: -0.46081543
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -74.44066
+        inSlope: 0.10473633
+        outSlope: 0.10473633
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -42.64143
+        inSlope: 2.816412
+        outSlope: 2.816412
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5416667
+        value: -42.227814
+        inSlope: -2.03253
+        outSlope: -2.010498
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -42.75599
+        inSlope: -0.1317749
+        outSlope: -0.1317749
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 36.306786
+        inSlope: -2.854233
+        outSlope: -2.854233
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5416667
+        value: 35.832214
+        inSlope: 1.8603415
+        outSlope: 1.8383789
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 36.41726
+        inSlope: 0.16851807
+        outSlope: 0.16851807
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 61.05403
+        inSlope: -0.01893696
+        outSlope: -0.01893696
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5833334
+        value: 61.1119
+        inSlope: -1.2779846
+        outSlope: -1.2779158
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 61.05389
+        inSlope: -0.334362
+        outSlope: -0.334362
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 27.722488
+        inSlope: -0.070572704
+        outSlope: -0.070572704
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5833334
+        value: 27.60381
+        inSlope: -0.41690946
+        outSlope: -0.4206733
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 27.694477
+        inSlope: -0.38551706
+        outSlope: -0.38551706
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 39.667313
+        inSlope: 0.012374074
+        outSlope: 0.012374074
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.5833334
+        value: 39.511944
+        inSlope: -0.025232416
+        outSlope: -0.029354092
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 39.6437
+        inSlope: -0.37017056
+        outSlope: -0.37017056
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 50.341175
+        inSlope: -0.0000059708304
+        outSlope: -0.0000059708304
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 50.341175
+        inSlope: -0.0000059708304
+        outSlope: -0.0000059708304
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -5.7126145
+        inSlope: -0.0000022390614
+        outSlope: -0.0000022390614
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -5.7126145
+        inSlope: -0.0000022390614
+        outSlope: -0.0000022390614
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 2.4403381
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 2.4403381
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:LeftUpLeg/mixamorig:LeftLeg/mixamorig:LeftFoot/mixamorig:LeftToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 6.0462456
+        inSlope: -0.01958084
+        outSlope: -0.01958084
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: 7.504453
+        inSlope: -0.922295
+        outSlope: -0.9222945
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 6.057534
+        inSlope: -0.4957612
+        outSlope: -0.4957612
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 9.724462
+        inSlope: -0.0059194556
+        outSlope: -0.0059194556
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: 10.371231
+        inSlope: -0.33316037
+        outSlope: -0.33313546
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 9.723541
+        inSlope: -0.23475787
+        outSlope: -0.23475787
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -149.85503
+        inSlope: 0.21034238
+        outSlope: 0.21034238
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0000001
+        value: -149.62732
+        inSlope: 0.1785736
+        outSlope: 0.17852785
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -149.86035
+        inSlope: -0.23655564
+        outSlope: -0.23655564
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -69.846146
+        inSlope: 1.014082
+        outSlope: 1.014082
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -67.06333
+        inSlope: -3.569238
+        outSlope: -3.569929
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -69.87497
+        inSlope: -0.5528739
+        outSlope: -0.5528739
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -4.308025
+        inSlope: 0.78115946
+        outSlope: 0.78115946
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -5.5624714
+        inSlope: 1.8433794
+        outSlope: 1.8267714
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -4.3407264
+        inSlope: -0.40587452
+        outSlope: -0.40587452
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -3.1789615
+        inSlope: -0.6684775
+        outSlope: -0.6684775
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.0416667
+        value: -2.3079326
+        inSlope: -1.8763912
+        outSlope: -1.8597933
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -3.1492302
+        inSlope: 0.3226294
+        outSlope: 0.3226294
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 55.492
+        inSlope: 1.1474422
+        outSlope: 1.1474422
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: 56.02079
+        inSlope: -2.217909
+        outSlope: -2.1889527
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 55.44214
+        inSlope: -0.26828614
+        outSlope: -0.26828614
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -117.131424
+        inSlope: 1.0016695
+        outSlope: 1.0016695
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -115.28016
+        inSlope: -5.0861025
+        outSlope: -5.1581545
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -117.16267
+        inSlope: -0.42963868
+        outSlope: -0.42963868
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: -135.82115
+        inSlope: 1.2265348
+        outSlope: 1.2265348
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.2916667
+        value: -134.0457
+        inSlope: -5.2334256
+        outSlope: -5.3052244
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: -135.85963
+        inSlope: -0.4053955
+        outSlope: -0.4053955
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 49.091095
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 49.091095
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.x
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 4.288383
+        inSlope: -0.000011195307
+        outSlope: -0.000011195307
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 4.288383
+        inSlope: -0.000011195307
+        outSlope: -0.000011195307
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.y
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 2
+        time: 0
+        value: 0.11128468
+        inSlope: -0.0000036501365
+        outSlope: -0.0000036501365
+        tangentMode: 0
+      - serializedVersion: 2
+        time: 1.9166667
+        value: 0.11128468
+        inSlope: -0.0000036501365
+        outSlope: -0.0000036501365
+        tangentMode: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: localEulerAngles.z
+    path: mixamorig:Hips/mixamorig:RightUpLeg/mixamorig:RightLeg/mixamorig:RightFoot/mixamorig:RightToeBase
+    classID: 4
+    script: {fileID: 0}
+  m_HasGenericRootTransform: 0
+  m_HasMotionFloatCurves: 0
+  m_GenerateMotionCurves: 0
+  m_Events: []

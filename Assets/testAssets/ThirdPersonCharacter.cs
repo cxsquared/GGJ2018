@@ -56,9 +56,9 @@ namespace UnityStandardAssets.Characters.ThirdPerson
 
 			ApplyExtraTurnRotation();
 
-			Debug.Log (this.transform.forward);
+			m_Rigidbody.velocity = this.transform.forward * m_ForwardAmount * m_MoveSpeedMultiplier;
 
-			m_Rigidbody.velocity = this.transform.forward * m_ForwardAmount * 6f;
+			m_Animator.SetFloat ("moveSpeed", m_Rigidbody.velocity.magnitude);
 		
 		}
 			

@@ -15,19 +15,22 @@ public class BattleResponses : MonoBehaviour {
 	}
 
 	public void AttackHit(object[] hitInfo) {
-		rb.AddForce (( Vector3) hitInfo [1]);
-		hp -= (int) hitInfo[0];
 
-        SoundManager.Instance.PlayBigEnemyHit(transform.position);
-		animator.SetTrigger ("stagger");
+
+		hp -= (int) hitInfo[0];
 
 		if (hp <= 0) {
 			TriggerDeath ();
+		} else {
+			//SoundManager.Instance.PlayBigEnemyHit(transform.position);
+			animator.SetTrigger ("stagger");
+			rb.isKinematic = false;
+			rb.AddForce (( Vector3) hitInfo [1], ForceMode.Impulse);
 		}
 	}
 
 	void TriggerDeath() {
-        SoundManager.Instance.PlayBigEnemyDeath(transform.position);
+    //    SoundManager.Instance.PlayBigEnemyDeath(transform.position);
 		animator.SetTrigger ("kill");
 	}
 
