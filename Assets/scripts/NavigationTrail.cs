@@ -17,16 +17,27 @@ public class NavigationTrail : MonoBehaviour {
     private float _trailOpacity = .5f;
     private float TrailOpacity { get { return _trailOpacity; } set { _trailOpacity = value; } }
 
+    public float ParticleSpeed;
+    public int ParticleSpeedThresholdForRadioTower;
+
     private NavMeshAgent Agent { get; set; }
     private LineRenderer Line { get; set; }
     private Transform CurrentTarget { get; set; }
-    private NavMeshPath Path { get; set; } 
+    private NavMeshPath Path { get; set; }
+    private CapsuleCollider ParentCapsule { get; set; }
+    private ParticleSystem Particle { get; set; }
+
+    private int CurrentParticleWaypoint { get; set; }
+    private Vector3 CurrentParticleTarget { get; set; }
 
 	// Use this for initialization
 	void Start () {
         Agent = GetComponent<NavMeshAgent>();
         Path = new NavMeshPath();
         Line = GetComponent<LineRenderer>();
+        ParentCapsule = GetComponentInParent<CapsuleCollider>();
+        Particle = GetComponentInChildren<ParticleSystem>();
+        CurrentParticleWaypoint = 0;
 	}
 	
 	// Update is called once per frame
@@ -42,25 +53,60 @@ public class NavigationTrail : MonoBehaviour {
             CurrentTarget = RadioTower;
         }
 
-        var distanceToTarget = Vector3.Distance(this.transform.position, CurrentTarget.position);
-
-        foreach (var transistor in Transistors)
+        if (ParticleSpeed < ParticleSpeedThresholdForRadioTower)
         {
-            var newDistance = Vector3.Distance(this.transform.position, transistor.position);
+            var distanceToTarget = Vector3.Distance(this.transform.position, CurrentTarget.position);
 
-            if (newDistance < distanceToTarget)
+            foreach (var transistor in Transistors)
             {
-                CurrentTarget = transistor;
-                distanceToTarget = newDistance;
+                var newDistance = Vector3.Distance(this.transform.position, transistor.position);
+
+                if (newDistance < distanceToTarget)
+                {
+                    CurrentTarget = transistor;
+                    distanceToTarget = newDistance;
+                }
             }
         }
+        else
+        {
+            CurrentTarget = RadioTower;
+        }
 
-        Line.SetPosition(0, transform.position);
+        Line.SetPosition(0, new Vector3(transform.position.x, transform.position.y - ParentCapsule.height/4, transform.position.z));
         Agent.SetDestination(CurrentTarget.position);
 
         RenderPathLine(Agent.path);
 
+        if (CurrentParticleWaypoint < Agent.path.corners.Length)
+        {
+            if (CurrentParticleTarget == null)
+            {
+                CurrentParticleTarget = Agent.path.corners[CurrentParticleWaypoint];
+            }
+            MoveParticle();
+        }
+
         Agent.isStopped = true;
+    }
+
+    void MoveParticle()
+    {
+        Particle.transform.forward = Vector3.RotateTowards(Particle.transform.forward, CurrentParticleTarget - Particle.transform.position, ParticleSpeed * Time.deltaTime, 0.0f);
+
+        // move towards the target
+        Particle.transform.position = Vector3.MoveTowards(Particle.transform.position, CurrentParticleTarget, ParticleSpeed * Time.deltaTime);
+
+        if (Vector3.Distance(Particle.transform.position, CurrentParticleTarget) < .25)
+        {
+            CurrentParticleWaypoint++;
+            if (CurrentParticleWaypoint >= Agent.path.corners.Length)
+            {
+                CurrentParticleWaypoint = 0;
+                Particle.transform.position = Agent.path.corners[CurrentParticleWaypoint];
+            }
+            CurrentParticleTarget = Agent.path.corners[CurrentParticleWaypoint];
+        }
     }
 
     void RenderPathLine(NavMeshPath path)
@@ -71,14 +117,29 @@ public class NavigationTrail : MonoBehaviour {
             return;
         }
 
-        Line.material.color = new Color(Line.material.color.r,Line.material.color.g,Line.material.color.b, TrailOpacity);
+        for (var i = 0; i < Line.colorGradient.alphaKeys.Length; i++) {
+            Line.colorGradient.alphaKeys[i] = new GradientAlphaKey(TrailOpacity, .5f);
+        }
 
         Line.positionCount = path.corners.Length;
 
         for (var i = 1; i < path.corners.Length; i++)
         {
-            Line.SetPosition(i, path.corners[i]);
+            var point = path.corners[i];
+            point.y = FindFloor(path.corners[i]);
+
+            Line.SetPosition(i, point);
         }
  
+    }
+
+    float FindFloor(Vector3 worldPoint)
+    {
+        RaycastHit hit; 
+        if (Physics.Raycast(worldPoint, Vector3.down, out hit)) {
+            return hit.point.y; 
+        }
+
+        return worldPoint.y;
     }
 }
