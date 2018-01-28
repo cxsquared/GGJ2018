@@ -17,8 +17,12 @@ public class PlayerStats : MonoBehaviour {
 	public void damage(int damageAmount) {
 		_currentHealth -= damageAmount;
 
-		if (_currentHealth < 0)
+		if (_currentHealth < 0) {
 			_currentHealth = 0;
+
+			//trigger game over / reset
+			DataGatherer.Instance.AddEvent(new GameEvent(GameEventEnum.DEATH_BASIC));
+		}
 
 		nextRegen = Time.time + regenDelay;
 	}

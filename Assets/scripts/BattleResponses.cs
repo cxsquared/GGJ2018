@@ -2,10 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum EnemyTypeEnum
+{
+	ENEMY_BOSS,
+	ENEMY_NORMAL
+};
+
 public class BattleResponses : MonoBehaviour {
 
 	private Rigidbody rb;
 	private Animator animator;
+	public EnemyTypeEnum enemyType;
 	public int hp;
 
 	// Use this for initialization
@@ -16,13 +23,12 @@ public class BattleResponses : MonoBehaviour {
 
 	public void AttackHit(object[] hitInfo) {
 
-
 		hp -= (int) hitInfo[0];
 
 		if (hp <= 0) {
 			TriggerDeath ();
 		} else {
-			SoundManager.Instance.PlayBigEnemyHit(transform.position);
+		//	SoundManager.Instance.PlayBigEnemyHit(transform.position);
 			animator.SetTrigger ("stagger");
 			rb.isKinematic = false;
 			rb.AddForce (( Vector3) hitInfo [1], ForceMode.Impulse);
@@ -30,8 +36,16 @@ public class BattleResponses : MonoBehaviour {
 	}
 
 	void TriggerDeath() {
-        SoundManager.Instance.PlayBigEnemyDeath(transform.position);
+        //SoundManager.Instance.PlayBigEnemyDeath(transform.position);n
+		NavigationTrail.ParticleSpeed += .75f;
 		animator.SetTrigger ("kill");
+
+		if (enemyType == EnemyTypeEnum.ENEMY_NORMAL) {
+			DataGatherer.Instance.AddEvent (new GameEvent (GameEventEnum.KILL_BASIC, "oitp"));
+		} else {
+			DataGatherer.Instance.AddEvent(new GameEvent(GameEventEnum.KILL_BOSS, "oitp"));
+		}
+
 	}
 
 	public void FinishDeath() {

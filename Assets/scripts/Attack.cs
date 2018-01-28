@@ -8,6 +8,7 @@ public class Attack : MonoBehaviour {
 	public string objTag;
 	private BoxCollider bc;
 	private bool enableCheck = false;
+	public ParticleSystem particles;
 
 
 	void Awake() {
@@ -35,6 +36,12 @@ public class Attack : MonoBehaviour {
 			eventInfo [1] = this.gameObject.transform.forward * attackForce;
 
 			other.gameObject.SendMessage("AttackHit", eventInfo, SendMessageOptions.DontRequireReceiver);
+
+
+			if (particles) {
+				particles.Emit (20);
+			}
+
 		}
 	}
 

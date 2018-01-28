@@ -17,7 +17,7 @@ public class NavigationTrail : MonoBehaviour {
     private float _trailOpacity = .5f;
     private float TrailOpacity { get { return _trailOpacity; } set { _trailOpacity = value; } }
 
-    public float ParticleSpeed;
+	public static float ParticleSpeed = 5;
     public int ParticleSpeedThresholdForRadioTower;
 
     private NavMeshAgent Agent { get; set; }
