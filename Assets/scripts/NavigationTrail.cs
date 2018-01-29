@@ -19,6 +19,7 @@ public class NavigationTrail : MonoBehaviour {
 
 	public static float ParticleSpeed = 5;
     public int ParticleSpeedThresholdForRadioTower;
+    public Transform Player;
 
     private NavMeshAgent Agent { get; set; }
     private LineRenderer Line { get; set; }
@@ -42,6 +43,7 @@ public class NavigationTrail : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        transform.position = Player.position;
         UpdatePathTarget();
 	}
 
@@ -73,7 +75,7 @@ public class NavigationTrail : MonoBehaviour {
             CurrentTarget = RadioTower;
         }
 
-        Line.SetPosition(0, new Vector3(transform.position.x, transform.position.y - ParentCapsule.height/4, transform.position.z));
+        Line.SetPosition(0, new Vector3(transform.position.x, transform.position.y, transform.position.z));
         Agent.SetDestination(CurrentTarget.position);
 
         RenderPathLine(Agent.path);

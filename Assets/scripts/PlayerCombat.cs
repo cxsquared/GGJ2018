@@ -21,6 +21,8 @@ public class PlayerCombat : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
+        animator.SetFloat("moveSpeed", rb.velocity.magnitude); 
+
 		//light
 		if (Input.GetButtonDown ("Fire1")) {
 			//rb.AddForce(this.gameObject.transform.forward * 100f);
