@@ -61,6 +61,9 @@ public class NavigationTrail : MonoBehaviour {
 
             foreach (var transistor in Transistors)
             {
+                if (!transistor.gameObject.activeInHierarchy)
+                    continue;
+
                 var newDistance = Vector3.Distance(this.transform.position, transistor.position);
 
                 if (newDistance < distanceToTarget)

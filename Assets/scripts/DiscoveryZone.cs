@@ -14,6 +14,7 @@ public class DiscoveryZone : MonoBehaviour {
             if (objectType == GameEventEnum.DISCOVER_RADIO_TOWER && !IsSent)
             {
                 DataGatherer.Instance.SendTweet(1);
+                IsSent = true;
             }
 		}
 	}

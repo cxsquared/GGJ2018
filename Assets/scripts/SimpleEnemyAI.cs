@@ -23,17 +23,20 @@ public class SimpleEnemyAI : MonoBehaviour {
 	}
 		
 	void Update() {
-		//if (rb.velocity.magnitude < 0.01f)
-		//	rb.isKinematic = true;
-		//if (rb.isKinematic) {
-			agent.destination = playerRef.transform.position;
-		//}
+        if (gameObject.activeInHierarchy)
+        {
+            //if (rb.velocity.magnitude < 0.01f)
+            //	rb.isKinematic = true;
+            //if (rb.isKinematic) {
+            agent.destination = playerRef.transform.position;
+            //}
 
-		animator.SetFloat("speed", agent.velocity.magnitude);
+            animator.SetFloat("speed", agent.velocity.magnitude);
 
-		if(agent.remainingDistance < 3f && !agent.pathPending) {
-			animator.SetTrigger("attack");
-		}
-
+            if (agent.remainingDistance < 3f && !agent.pathPending)
+            {
+                animator.SetTrigger("attack");
+            }
+        }
 	}
 }
